@@ -22,6 +22,7 @@ function Header() {
         </div>
         {/* 우측 아이콘 버튼 */}
         <div className="header__nav">
+
           <Link to="/login" className="header__link">
             <div className="header__option">
               <span className="header__optionLineOne">Hello Wan</span>

@@ -19,11 +19,9 @@ function App() {
         <Route path="/">
           <Header />
           <Home />
-          
         </Route>
       </Switch>
     </Router>
   );
 }
-
 export default App;
