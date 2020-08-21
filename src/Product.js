@@ -10,11 +10,11 @@ function Product({id, title, price, rating, image}) {
         type:'ADD_TO_BASKET',
         item: {
           id:id,
-          title:title,
+          title: title,
           image:image,
           price:price,
-          rating:rating
-        }
+          rating:rating,
+        },
       })
     };
     
@@ -24,7 +24,7 @@ function Product({id, title, price, rating, image}) {
           <p>{title}</p>
           <p className="product__price">
             <small>$</small>
-            <strong>00.00</strong>
+            <strong>{price}</strong>
           </p>
           <div className="product__rating">
             {Array(rating)
